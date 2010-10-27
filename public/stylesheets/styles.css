@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Angelina";
+  src: local("☺"), url(/fonts/angelina-webfont.ttf) format('truetype'), url(/fonts/angelina-webfont.woff) format('woff'), url(/fonts/angelina-webfont.svg) format('svg');
+}
+
+/* line 18, ../../app/stylesheets/styles.scss */
+html, body, body.bp {
+  background-color: #568cb0;
+  height: 100%;
+}
+
+/* line 23, ../../app/stylesheets/styles.scss */
+body, body.bp {
+  margin: 0;
+  height: 100%;
+}
+
+/* line 28, ../../app/stylesheets/styles.scss */
+.mainpage {
+  background-color: #fdf9cc;
+}
+
+/* line 32, ../../app/stylesheets/styles.scss */
+#header {
+  background: #568cb0;
+}
+/* line 34, ../../app/stylesheets/styles.scss */
+#header #header-content div {
+  -moz-border-radius-bottomleft: 18px;
+  -webkit-border-bottom-left-radius: 18px;
+  -o-border-bottom-left-radius: 18px;
+  -ms-border-bottom-left-radius: 18px;
+  -khtml-border-bottom-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  -moz-border-radius-bottomright: 18px;
+  -webkit-border-bottom-right-radius: 18px;
+  -o-border-bottom-right-radius: 18px;
+  -ms-border-bottom-right-radius: 18px;
+  -khtml-border-bottom-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 18px;
+  border: solid 18px #fdf9cc;
+  background: #fdf9cc;
+  text-align: center;
+  font-family: "Angelina";
+}
+/* line 43, ../../app/stylesheets/styles.scss */
+#header #header-content div h1 {
+  text-shadow: #668766 1px 2px 1px;
+  font-size: 72px;
+  line-height: 72px;
+  color: #243024;
+  margin: 0;
+}
+/* line 49, ../../app/stylesheets/styles.scss */
+#header #header-content div h1 a {
+  text-decoration: none;
+  color: #243024;
+}
+/* line 52, ../../app/stylesheets/styles.scss */
+#header #header-content div h1 a:hover, #header #header-content div h1 a:visited {
+  color: #243024;
+}
+/* line 57, ../../app/stylesheets/styles.scss */
+#header #header-content div h2 {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+}
+
+/* line 68, ../../app/stylesheets/styles.scss */
+#mainsection {
+  border-top: solid 18px #568cb0;
+  margin: 0;
+  padding: 0;
+  background-color: #568cb0;
+}
+/* line 73, ../../app/stylesheets/styles.scss */
+#mainsection #bordermaker {
+  background-color: #fdf9cc;
+  padding-top: 18px;
+  border: solid 18px #fdf9cc;
+  -moz-border-radius-topleft: 18px;
+  -webkit-border-top-left-radius: 18px;
+  -o-border-top-left-radius: 18px;
+  -ms-border-top-left-radius: 18px;
+  -khtml-border-top-left-radius: 18px;
+  border-top-left-radius: 18px;
+  -moz-border-radius-topright: 18px;
+  -webkit-border-top-right-radius: 18px;
+  -o-border-top-right-radius: 18px;
+  -ms-border-top-right-radius: 18px;
+  -khtml-border-top-right-radius: 18px;
+  border-top-right-radius: 18px;
+}

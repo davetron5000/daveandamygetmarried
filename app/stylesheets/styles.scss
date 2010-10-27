@@ -1,0 +1,79 @@
+@import "compass/css3/font-face";
+@import "compass/css3/text-shadow";
+@import "compass/css3/border-radius";
+
+@include font-face("Angelina", font-files( "/fonts/angelina-webfont.ttf", truetype, "/fonts/angelina-webfont.woff", woff, "/fonts/angelina-webfont.svg", svg) );
+
+$line-height: 18px;
+
+$blue: #568CB0;
+$dark-green: #243024;
+$off-white: #FDF9CC;
+$drab-green: #7A7420;
+
+$matte-color: $blue;
+$main-color: $dark-green;
+$bg-color: $off-white;
+
+html, body, body.bp {
+  background-color: $matte-color;
+  height: 100%;
+}
+
+body, body.bp {
+  margin: 0;
+  height: 100%;
+}
+
+.mainpage {
+  background-color: $bg-color;
+}
+
+#header {
+  background: $matte-color;
+  #header-content div {
+    @include border-bottom-radius($line-height);
+    padding-left: $line-height;
+    padding-right: $line-height;
+    padding-top: $line-height;
+    border: solid $line-height $bg-color;
+    background: $bg-color;
+    text-align: center;
+    font-family: "Angelina";
+    h1 {
+      @include text-shadow(lighten($main-color,30%),1px,2px);
+      font-size: $line-height * 4;
+      line-height: $line-height * 4;
+      color: $main-color;
+      margin:0;
+      a {
+        text-decoration: none;
+        color: $main-color;
+        &:hover, &:visited {
+          color: $main-color;
+        }
+      }
+    }
+    h2 {
+      font-size: $line-height * 2;
+      line-height: $line-height * 2;
+      margin:0;
+    }
+  }
+}
+
+#entirepage {
+}
+
+#mainsection {
+  border-top: solid $line-height $matte-color;
+  margin: 0;
+  padding: 0;
+  background-color: $matte-color;
+  #bordermaker {
+    background-color: $bg-color;
+    padding-top: $line-height;
+    border: solid $line-height $bg-color;
+    @include border-top-radius($line-height);
+  }
+}

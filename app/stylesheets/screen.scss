@@ -1,0 +1,33 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "blueprint";
+@import "blueprint/scaffolding";
+
+$blueprint-font-family: 'Palatino', 'Georgia', 'Times', serif;
+$blueprint-font-size: 14px;
+
+@include blueprint-scaffolding("body.bp");
+body.bp {
+  @include blueprint-typography(true);
+  @include blueprint-utilities;
+  @include blueprint-debug;
+  @include blueprint-interaction;
+}
+.mainpage {
+  //@include showgrid;
+  @include container;
+  #header, #footer {
+    @include column($blueprint-grid-columns); 
+  }
+  #nav {
+    @include column(8); 
+  }
+  #content {
+    @include column($blueprint-grid-columns - 9,true); 
+  }
+}

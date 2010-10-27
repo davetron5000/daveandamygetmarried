@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>DaveandamygetmarriedCom</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>Dave and Amy Get Married!</title>
+    <%= stylesheet_link_tag 'screen','styles', :media => 'screen, projection' %>
+    <%= stylesheet_link_tag 'print', :media => 'print' %>
+    <!--[if lt IE 8]><%= stylesheet_link_tag "id", :media => "screen,projection" %><![endif]-->
+    <%= javascript_include_tag :defaults %>
+    <%= csrf_meta_tag %>
+  </head>
+  <body class="bp">
+    <div class="mainpage">
+      <div id="header"><div id="header-content"><div>
+            <h1 id="title"><a href="<%= welcome_index_url %>">Dave and Amy Get Married!</a></h1>
+            <h2>June 4th, 2010 - Vieques, Puerto Rico</h3>
+      </div></div></div>
+    </div>
+    <div class="mainpage" id="entirepage">
+      <div id="mainsection"><div id="bordermaker">
+          <div id="nav">
+            <ul>
+              <li>Where</li>
+              <li>When</li>
+              <li>Who?</li>
+            </ul>
+          </div>
+          <div id="content">
+            <%= yield %>
+          </div>
+      </div></div>
+    </div>
+    <div id="footer">
+    </div>
+  </body>
 </html>
