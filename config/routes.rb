@@ -1,4 +1,32 @@
 DaveandamygetmarriedCom::Application.routes.draw do
+  get "vieques/about"
+
+  get "vieques/pr"
+
+  get "vieques/get_there"
+
+  get "vieques/get_around"
+
+  get "vieques/stay"
+
+  get "vieques/do"
+
+  get "us/who"
+
+  get "us/met"
+
+  get "us/engagement"
+
+  get "us/contact"
+
+  get "wedding/vieques"
+
+  get "wedding/when"
+
+  get "wedding/wear"
+
+  get "wedding/expect"
+
   get "welcome/index"
 
   root :to => "welcome#index"

@@ -20,34 +20,35 @@
             <li class="navtitle">
             The Wedding
             <ul>
-              <li><a href="#">Why Vieques?</a></li>
-              <li><a href="#">When &amp; Where?</a></li>
-              <li><a href="#">What to wear</a></li>
-              <li><a href="#">What to expect</a></li>
+              <li><a href="<%= wedding_vieques_url %>">Why Vieques?</a></li>
+              <li><a href="<%= wedding_when_url %>">When &amp; Where?</a></li>
+              <li><a href="<%= wedding_wear_url %>">What to wear</a></li>
+              <li><a href="<%= wedding_expect_url %>">What to expect</a></li>
             </ul>
             </li>
             <li class="navtitle">Us
             <ul>
-              <li><a href="#">Who we are</a></li>
-              <li><a href="#">How we met (according to Amy)</a></li>
-              <li><a href="#">How we met (according to Dave)</a></li>
-              <li><a href="#">Engagement</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="<%= us_who_url %>">Who we are</a></li>
+              <li><a href="<%= us_met_url :who => 'Amy' %>">How we met (according to Amy)</a></li>
+              <li><a href="<%= us_met_url :who => 'Amy' %>">How we met (according to Dave)</a></li>
+              <li><a href="<%= us_engagement_url %>">Engagement</a></li>
+              <li><a href="<%= us_contact_url %>">Contact</a></li>
             </ul>
             </li>
             <li class="navtitle">Vieques
             <ul>
-              <li><a href="#">About Vieques</a></li>
-              <li><a href="#">About Puerto Rico</a></li>
-              <li><a href="#">Getting There</a></li>
-              <li><a href="#">Getting Around</a></li>
-              <li><a href="#">Where to Stay</a></li>
-              <li><a href="#">What to Do</a></li>
+              <li><a href="<%= vieques_about_url %>">About Vieques</a></li>
+              <li><a href="<%= vieques_pr_url %>">About Puerto Rico</a></li>
+              <li><a href="<%= vieques_get_there_url %>">Getting There</a></li>
+              <li><a href="<%= vieques_get_around_url %>">Getting Around</a></li>
+              <li><a href="<%= vieques_stay_url %>">Where to Stay</a></li>
+              <li><a href="<%= vieques_do_url %>">What to Do</a></li>
             </ul>
             </li>
           </ul>
         </div>
         <div id="content">
+          <h3><%= yield :title %></h3>
           <%= yield %>
         </div>
       </div>
