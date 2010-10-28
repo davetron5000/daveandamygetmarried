@@ -115,3 +115,84 @@ h3 {
     }
   }
 }
+
+#text-content {
+  a {
+    color: lighten($main-color,10%);
+    &:visited {
+      color: lighten($main-color,15%);
+    }
+    &:hover {
+      color: lighten($main-color,25%);
+    }
+  }
+  text-align: justify;
+  margin-left: $line-height * 16;
+  p {
+    padding: $line-height / 2;
+    text-indent: $line-height;
+  }
+  h4, h5 {
+    font-weight: bold;
+  }
+  h4 {
+    font-size: $font-size + 4;
+  }
+  h5 {
+    font-size: $font-size + 2;
+    text-indent: $line-height / 2;
+    margin-top: $line-height / 2;
+  }
+  table {
+    margin-top: 0;
+    width: 100%;
+  }
+  table caption {
+    display: none;
+  }
+  table thead th {
+    font-weight: bold;
+    font-size: $font-size + 2;
+    border-bottom: solid 4px $matte-color;
+  }
+  table tbody {
+    td {
+      font-size: $font-size - 2;
+      padding-right: $line-height + 4;
+      vertical-align: top;
+      padding-top: $line-height / 2;
+      padding-bottom: $line-height / 2;
+      ul {
+        list-style: circle;
+        li {
+          list-style-position: outside;
+          text-indent: 0;
+        }
+      }
+      border-bottom: solid thin $matte-color;
+      color: lighten($main-color,20%);
+    }
+    td.airline-name {
+      font-weight: bold;
+      color: $main-color;
+    }
+  }
+  table.ferry caption {
+    display: table-caption;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    color: $matte-color;
+    margin-bottom: $line-height / 2;
+  }
+  ul {
+    li {
+      list-style: circle;
+      text-indent: $line-height * 2;
+      list-style-position: inside;
+    }
+  }
+}
+strong {
+  font-weight: bold;
+}

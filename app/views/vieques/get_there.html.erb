@@ -1,2 +1,139 @@
-<h1>Vieques#get_there</h1>
-<p>Find me in app/views/vieques/get_there.html.erb</p>
+<% content_for :title do %>
+  Getting There
+<% end %>
+<p>
+Vieques is a short flight from San Juan, Puerto Rico, or a bit longer trip by ferry from Fajardo (a town on the east coast of the island of Puerto Rico).
+</p>
+<h4>Getting to Puerto Rico</h4>
+<p>
+Flights to San Juan, Puerto Rico can be booked from pretty much anywhere in the US. The airport code is SJU. 
+</p>
+<p>
+(We will hopefully be arranging for a modest group discount through American Airlines, and we will post directions on how to take advantage as soon as we can!)
+</p>
+<h4>Getting to Vieques</h4>
+<p>
+You can get to Vieques from San Juan either <a href="#plane">by plane</a> or <a href="#ferry">by ferry</a>.
+</p>
+<a name="plane"></a>
+<h5>By Plane</h5>
+<p>
+Theoretically, you can fly straight from SJU to Vieques, but, best we can tell, it’s crazy expensive, so we would not recommend it. There is a small regional airport (Isla Grande - SIG) a short taxi ride from SJU, and from there you can choose from a few airlines that will fly to Vieques.  Note that these are fairly small planes, but the trip is very short.
+</p>
+<p>
+<table caption="Airlines" summary="A list of airlines and their contact info for getting from San Juan, Puerto Rico to Vieques">
+  <caption>Airlines</caption>
+  <thead>
+    <tr>
+      <th>Airline</th>
+      <th>Contact Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="airline-name">Air Sunshine</td>
+      <td><ul>
+          <li>800-327-8900</li>
+          <li>Vieques - 787 741-7900</li>
+          <li>San Juan -	 787 791-8900</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="airline-name">Cape Air (Excellent Service)</td>
+      <td><ul><li>1-800-352-0714 or book online at <a href="http://www.priceline.com">Priceline.com</a></li></ul></td>
+    </tr>
+    <tr>
+      <td class="airline-name">Isla Nena Air Service</td>
+      <td><ul>
+          <li>1-888-263-6213</li>
+          <li>(787) 863-4447</li>
+          <li>(787) 741-1505</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="airline-name">MN Aviation</td>
+      <td><ul>
+          <li>Isla Grande - 787 722-0775</li>
+          <li>Vieques - 787 741-3911</li>
+          <li>SJU - 787 791-7008 </li>
+          <li>Reservations 787 253-0866</li>
+      </ul></td>
+    </tr>
+    <tr>
+      <td class="airline-name">Vieques Air Link</td>
+      <td><ul>
+          <li>Vieques (787) 741-8331 </li>
+          <li>San Juan (787) 722-3736</li>
+          <li>Toll free 1-888-901-9247</li>
+      </ul></td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<a name="ferry"></a>
+<h5>By Ferry</h5>
+<p>
+If you can get to Fajardo, taking the ferry is a cheap option. It requires more planning and is probably only worth it if you are traveling with one or more other people (You can also rent a car one way from San Juan to Fajardo through a number of car rental companies).
+</p>
+<p>
+A tax from SJU to Fajardo is about $80.  The Ferry itself costs $2 each way for adults 60 and under and $1 each way for adults over 60
+</p>
+<p>
+<table class="ferry" caption="Weekday Ferry Schedule" summary="Ferry schedule between Fajardo and Vieques on weekdays">
+  <caption>Weekday Ferry Schedule</caption>
+  <thead>
+    <tr>
+      <th>Departing Fajardo</th>
+      <th>Departing Vieques</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9:30 am</td>
+      <td>6:30 am</td>
+    </tr>
+    <tr>
+      <td>1:00 pm</td>
+      <td>11:00 am</td>
+    </tr>
+    <tr>
+      <td>4:30 pm</td>
+      <td>3:00 pm</td>
+    </tr>
+    <tr>
+      <td>8:00 pm</td>
+      <td>6:00 pm</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<p>
+<table class="ferry" caption="Weekend Ferry Schedule" summary="Ferry schedule betweeen Fajardo and Vieques on weekends">
+  <caption>Weekend Ferry Schedule</caption>
+  <thead>
+    <tr>
+      <th>Departing Fajardo</th>
+      <th>Departing Vieques</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9:00 am</td>
+      <td>6:30 am</td>
+    </tr>
+    <tr>
+      <td>3:00 pm</td>
+      <td>1:00 pm</td>
+    </tr>
+    <tr>
+      <td>6:00 pm</td>
+      <td>4:30 pm</td>
+    </tr>
+ </tbody>
+</table>
+</p>
+<p>
+If you have problems arranging travel, please <a href="<%= us_contact_url %>">contact us</a> and we can help you.
+</p>

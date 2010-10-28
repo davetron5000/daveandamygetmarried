@@ -140,3 +140,99 @@ h3 {
 #nav ul a:hover {
   color: white;
 }
+
+/* line 119, ../../app/stylesheets/styles.scss */
+#text-content {
+  text-align: justify;
+  margin-left: 320px;
+}
+/* line 120, ../../app/stylesheets/styles.scss */
+#text-content a {
+  color: #455c45;
+}
+/* line 122, ../../app/stylesheets/styles.scss */
+#text-content a:visited {
+  color: #506a50;
+}
+/* line 125, ../../app/stylesheets/styles.scss */
+#text-content a:hover {
+  color: #668766;
+}
+/* line 131, ../../app/stylesheets/styles.scss */
+#text-content p {
+  padding: 10px;
+  text-indent: 20px;
+}
+/* line 135, ../../app/stylesheets/styles.scss */
+#text-content h4, #text-content h5 {
+  font-weight: bold;
+}
+/* line 138, ../../app/stylesheets/styles.scss */
+#text-content h4 {
+  font-size: 20px;
+}
+/* line 141, ../../app/stylesheets/styles.scss */
+#text-content h5 {
+  font-size: 18px;
+  text-indent: 10px;
+  margin-top: 10px;
+}
+/* line 146, ../../app/stylesheets/styles.scss */
+#text-content table {
+  margin-top: 0;
+  width: 100%;
+}
+/* line 150, ../../app/stylesheets/styles.scss */
+#text-content table caption {
+  display: none;
+}
+/* line 153, ../../app/stylesheets/styles.scss */
+#text-content table thead th {
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: solid 4px #568cb0;
+}
+/* line 159, ../../app/stylesheets/styles.scss */
+#text-content table tbody td {
+  font-size: 14px;
+  padding-right: 24px;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid thin #568cb0;
+  color: #5b795b;
+}
+/* line 165, ../../app/stylesheets/styles.scss */
+#text-content table tbody td ul {
+  list-style: circle;
+}
+/* line 167, ../../app/stylesheets/styles.scss */
+#text-content table tbody td ul li {
+  list-style-position: outside;
+  text-indent: 0;
+}
+/* line 175, ../../app/stylesheets/styles.scss */
+#text-content table tbody td.airline-name {
+  font-weight: bold;
+  color: #2f3f2f;
+}
+/* line 180, ../../app/stylesheets/styles.scss */
+#text-content table.ferry caption {
+  display: table-caption;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: #568cb0;
+  margin-bottom: 10px;
+}
+/* line 189, ../../app/stylesheets/styles.scss */
+#text-content ul li {
+  list-style: circle;
+  text-indent: 40px;
+  list-style-position: inside;
+}
+
+/* line 196, ../../app/stylesheets/styles.scss */
+strong {
+  font-weight: bold;
+}
