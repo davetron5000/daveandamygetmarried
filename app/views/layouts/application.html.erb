@@ -10,26 +10,49 @@
   </head>
   <body class="bp">
     <div class="mainpage">
-      <div id="header"><div id="header-content"><div>
-            <h1 id="title"><a href="<%= welcome_index_url %>">Dave and Amy Get Married!</a></h1>
-            <h2>June 4th, 2010 - Vieques, Puerto Rico</h3>
-      </div></div></div>
-    </div>
-    <div class="mainpage" id="entirepage">
-      <div id="mainsection"><div id="bordermaker">
-          <div id="nav">
+      <div id="header">
+        <h1 id="title"><a href="<%= welcome_index_url %>">Dave and Amy Get Married!</a></h1>
+        <h2>June 4th, 2010 - Vieques, Puerto Rico</h3>
+      </div>
+      <div id="main-content">
+        <div id="nav">
+          <ul>
+            <li class="navtitle">
+            The Wedding
             <ul>
-              <li>Where</li>
-              <li>When</li>
-              <li>Who?</li>
+              <li><a href="#">Why Vieques?</a></li>
+              <li><a href="#">When &amp; Where?</a></li>
+              <li><a href="#">What to wear</a></li>
+              <li><a href="#">What to expect</a></li>
             </ul>
-          </div>
-          <div id="content">
-            <%= yield %>
-          </div>
-      </div></div>
-    </div>
-    <div id="footer">
+            </li>
+            <li class="navtitle">Us
+            <ul>
+              <li><a href="#">Who we are</a></li>
+              <li><a href="#">How we met (according to Amy)</a></li>
+              <li><a href="#">How we met (according to Dave)</a></li>
+              <li><a href="#">Engagement</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            </li>
+            <li class="navtitle">Vieques
+            <ul>
+              <li><a href="#">About Vieques</a></li>
+              <li><a href="#">About Puerto Rico</a></li>
+              <li><a href="#">Getting There</a></li>
+              <li><a href="#">Getting Around</a></li>
+              <li><a href="#">Where to Stay</a></li>
+              <li><a href="#">What to Do</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+        <div id="content">
+          <%= yield %>
+        </div>
+      </div>
+      <div id="footer">
+      </div>
     </div>
   </body>
 </html>
