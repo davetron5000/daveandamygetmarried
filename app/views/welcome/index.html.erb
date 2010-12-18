@@ -1,4 +1,15 @@
-<h3>Welcome!</h3>
+<% content_for :title do %>
+  Welcome!
+<% end %>
 <p>
-The most important details:
+Welcome to our website!  Here's the short version:
+<ul>
+  <li>We're getting married in <a href="<%= vieques_about_url %>">Vieques</a>, <a href="<%= vieques_pr_url %>">Puerto Rico</a></li>
+  <li>The ceremony's on <a href="<%= wedding_when_url %>">Saturday, June 4th, 2011</a></li>
+  <li>You should plan to <a href="<%= vieques_get_there_url %>">arrive in Vieques</a> on Thursday, June 2nd</li>
+  <li>There's lots of fun things <a href="<%= wedding_expect_url %>">planned</a> and <a href="<%= vieques_do_url %>">unplanned</a> for you to do!</li>
+  <li>Book your <a href="<%= vieques_get_there_url %>">travel now!</a></li>
+  <li>If you haven't received the travel information, <a href="<%= travel_guide_url %>">download it</a></li>
+  <li><a href="<%= us_contact_url %>">Contact us</a> for anything!</li>
+</ul>
 </p>
