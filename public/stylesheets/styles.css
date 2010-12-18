@@ -232,7 +232,20 @@ h3 {
   list-style-position: inside;
 }
 
-/* line 196, ../../app/stylesheets/styles.scss */
+/* line 197, ../../app/stylesheets/styles.scss */
+ul.events {
+  text-align: left;
+}
+
+/* line 201, ../../app/stylesheets/styles.scss */
+blockquote {
+  font-style: italic;
+  font-size: 14px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* line 207, ../../app/stylesheets/styles.scss */
 strong {
   font-weight: bold;
 }

@@ -17,4 +17,8 @@ class ViequesController < ApplicationController
   def do
   end
 
+  def travel_guide
+    send_file 'public/pdf/travel_guide.pdf', :type => 'application/pdf'
+  end
+
 end
