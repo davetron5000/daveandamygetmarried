@@ -1,2 +1,20 @@
-<h1>Us#met</h1>
-<p>Find me in app/views/us/met.html.erb</p>
+<% content_for :title do %>
+  <% if @known %>
+  How we met according to <%= @according_to %>
+  <% else %>
+    Uhhhh, <%= @according_to %> probably doesn't know how we met
+  <% end %>
+<% end %>
+<% if @according_to == 'Rudy' %>
+<p>
+Amy just showed up one day and gave me lots of bellyrubs.  Not sure where she came from.
+</p>
+<% elsif @according_to == 'Dave' %>
+  <p>
+  Tony and I were at the Red &amp; the Black seeing a friend of ours' band.  We knew the singer of the other band that was playing, and they were working hard on getting people on their mailing list.  Amy was going around the room getting people to sign up for their mailing list.  She was super nice and very friendly and pretty darn cute.  I remembered talking to her a bit and may have mentioned something to the band's singer, although I thought it would be too cheesy to ask for her number, so I didn't. 
+  </p>
+  <p>
+  Amy emailed me a few days later and we made plans to meet up.  I wasn't sure if it was a date or not, but we hung out every night that weekend and, it turns out, it <strong>was</strong> a date!  Thankfully.
+  </p>
+<% elsif @according_to == 'Amy' %>
+<% end %>
