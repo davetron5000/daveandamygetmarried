@@ -21,7 +21,7 @@ body.bp {
   background-image: url(/images/vieques-background.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: $main-color;
 }
 html, body, body.bp {
@@ -72,6 +72,11 @@ h3 {
   font-size: $line-height * 1.5;
   line-height: $line-height * 2;
   font-weight: bold;
+}
+h4 {
+  font-size: $line-height;
+  font-weight: bold;
+  font-style: italic;
 }
 
 #main-content {

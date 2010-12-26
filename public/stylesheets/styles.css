@@ -8,7 +8,7 @@ body.bp {
   background-image: url(/images/vieques-background.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #2f3f2f;
 }
 
@@ -81,7 +81,14 @@ h3 {
   font-weight: bold;
 }
 
-/* line 77, ../../app/stylesheets/styles.scss */
+/* line 76, ../../app/stylesheets/styles.scss */
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 82, ../../app/stylesheets/styles.scss */
 #main-content {
   overflow: auto;
   -moz-border-radius: 20px;
@@ -94,7 +101,7 @@ h3 {
   padding: 20px;
 }
 
-/* line 84, ../../app/stylesheets/styles.scss */
+/* line 89, ../../app/stylesheets/styles.scss */
 #nav {
   float: left;
   -moz-border-radius: 20px;
@@ -108,23 +115,23 @@ h3 {
   padding: 20px;
   width: 260px;
 }
-/* line 91, ../../app/stylesheets/styles.scss */
+/* line 96, ../../app/stylesheets/styles.scss */
 #nav ul {
   text-align: left;
 }
-/* line 93, ../../app/stylesheets/styles.scss */
+/* line 98, ../../app/stylesheets/styles.scss */
 #nav ul li {
   font-size: 32px;
   font-family: 'Angelina';
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 98, ../../app/stylesheets/styles.scss */
+/* line 103, ../../app/stylesheets/styles.scss */
 #nav ul li ul {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 101, ../../app/stylesheets/styles.scss */
+/* line 106, ../../app/stylesheets/styles.scss */
 #nav ul li ul li {
   font-family: Palatino, Georgia, Times, serif;
   font-size: 16px;
@@ -132,67 +139,67 @@ h3 {
   margin-top: 0;
   margin-bottom: 4px;
 }
-/* line 110, ../../app/stylesheets/styles.scss */
+/* line 115, ../../app/stylesheets/styles.scss */
 #nav ul a {
   color: #fdf9cc;
 }
-/* line 112, ../../app/stylesheets/styles.scss */
+/* line 117, ../../app/stylesheets/styles.scss */
 #nav ul a:hover {
   color: white;
 }
 
-/* line 119, ../../app/stylesheets/styles.scss */
+/* line 124, ../../app/stylesheets/styles.scss */
 #text-content {
   text-align: justify;
   margin-left: 320px;
 }
-/* line 120, ../../app/stylesheets/styles.scss */
+/* line 125, ../../app/stylesheets/styles.scss */
 #text-content a {
   color: #455c45;
 }
-/* line 122, ../../app/stylesheets/styles.scss */
+/* line 127, ../../app/stylesheets/styles.scss */
 #text-content a:visited {
   color: #506a50;
 }
-/* line 125, ../../app/stylesheets/styles.scss */
+/* line 130, ../../app/stylesheets/styles.scss */
 #text-content a:hover {
   color: #668766;
 }
-/* line 131, ../../app/stylesheets/styles.scss */
+/* line 136, ../../app/stylesheets/styles.scss */
 #text-content p {
   padding: 10px;
   text-indent: 20px;
 }
-/* line 135, ../../app/stylesheets/styles.scss */
+/* line 140, ../../app/stylesheets/styles.scss */
 #text-content h4, #text-content h5 {
   font-weight: bold;
 }
-/* line 138, ../../app/stylesheets/styles.scss */
+/* line 143, ../../app/stylesheets/styles.scss */
 #text-content h4 {
   font-size: 20px;
 }
-/* line 141, ../../app/stylesheets/styles.scss */
+/* line 146, ../../app/stylesheets/styles.scss */
 #text-content h5 {
   font-size: 18px;
   text-indent: 10px;
   margin-top: 10px;
 }
-/* line 146, ../../app/stylesheets/styles.scss */
+/* line 151, ../../app/stylesheets/styles.scss */
 #text-content table {
   margin-top: 0;
   width: 100%;
 }
-/* line 150, ../../app/stylesheets/styles.scss */
+/* line 155, ../../app/stylesheets/styles.scss */
 #text-content table caption {
   display: none;
 }
-/* line 153, ../../app/stylesheets/styles.scss */
+/* line 158, ../../app/stylesheets/styles.scss */
 #text-content table thead th {
   font-weight: bold;
   font-size: 18px;
   border-bottom: solid 4px #568cb0;
 }
-/* line 159, ../../app/stylesheets/styles.scss */
+/* line 164, ../../app/stylesheets/styles.scss */
 #text-content table tbody td {
   font-size: 14px;
   padding-right: 24px;
@@ -202,21 +209,21 @@ h3 {
   border-bottom: solid thin #568cb0;
   color: #5b795b;
 }
-/* line 165, ../../app/stylesheets/styles.scss */
+/* line 170, ../../app/stylesheets/styles.scss */
 #text-content table tbody td ul {
   list-style: circle;
 }
-/* line 167, ../../app/stylesheets/styles.scss */
+/* line 172, ../../app/stylesheets/styles.scss */
 #text-content table tbody td ul li {
   list-style-position: outside;
   text-indent: 0;
 }
-/* line 175, ../../app/stylesheets/styles.scss */
+/* line 180, ../../app/stylesheets/styles.scss */
 #text-content table tbody td.airline-name {
   font-weight: bold;
   color: #2f3f2f;
 }
-/* line 180, ../../app/stylesheets/styles.scss */
+/* line 185, ../../app/stylesheets/styles.scss */
 #text-content table.ferry caption {
   display: table-caption;
   font-weight: bold;
@@ -225,19 +232,19 @@ h3 {
   color: #568cb0;
   margin-bottom: 10px;
 }
-/* line 189, ../../app/stylesheets/styles.scss */
+/* line 194, ../../app/stylesheets/styles.scss */
 #text-content ul li {
   list-style: circle;
   text-indent: 40px;
   list-style-position: inside;
 }
 
-/* line 197, ../../app/stylesheets/styles.scss */
+/* line 202, ../../app/stylesheets/styles.scss */
 ul.events {
   text-align: left;
 }
 
-/* line 201, ../../app/stylesheets/styles.scss */
+/* line 206, ../../app/stylesheets/styles.scss */
 blockquote {
   font-style: italic;
   font-size: 14px;
@@ -245,7 +252,7 @@ blockquote {
   margin-right: 40px;
 }
 
-/* line 207, ../../app/stylesheets/styles.scss */
+/* line 212, ../../app/stylesheets/styles.scss */
 strong {
   font-weight: bold;
 }

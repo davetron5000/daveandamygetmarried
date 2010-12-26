@@ -19,6 +19,8 @@ DaveandamygetmarriedCom::Application.routes.draw do
 
   get "us/contact"
 
+  get "us/pictures"
+
   get "wedding/vieques"
 
   get "wedding/when"

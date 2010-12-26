@@ -29,9 +29,10 @@
             <li class="navtitle">Us
             <ul>
               <li><a href="<%= us_who_url %>">Who we are</a></li>
-              <li><a href="<%= us_met_url :who => 'Amy' %>">How we met (according to Amy)</a></li>
-              <li><a href="<%= us_met_url :who => 'Dave' %>">How we met (according to Dave)</a></li>
-              <li><a href="<%= us_engagement_url %>">Engagement</a></li>
+              <li><a href="<%= us_met_url %>">How we met</a></li>
+              <li><a href="<%= us_engagement_url :who => 'Amy' %>">Engagement (according to Amy)</a></li>
+              <li><a href="<%= us_engagement_url :who => 'Dave' %>">Engagement (according to Dave)</a></li>
+              <li><a href="<%= us_pictures_url %>">Photo Gallery</a></li>
               <li><a href="<%= us_contact_url %>">Contact</a></li>
             </ul>
             </li>
@@ -49,6 +50,7 @@
         </div>
         <div id="content">
           <h3><%= yield :title %></h3>
+          <h4><%= yield :subtitle %></h4>
           <div id="text-content">
             <%= yield %>
           </div>
