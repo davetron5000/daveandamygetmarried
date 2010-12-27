@@ -8,13 +8,12 @@ body.bp {
   background-image: url(/images/vieques-background.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-attachment: scroll;
+  background-attachment: fixed;
   color: #2f3f2f;
 }
 
 /* line 27, ../../app/stylesheets/styles.scss */
 html, body, body.bp {
-  background-color: #568cb0;
   height: 100%;
   font-family: Palatino, Georgia, Times, serif;
   line-height: 20px;
@@ -22,7 +21,12 @@ html, body, body.bp {
   margin: 0;
 }
 
-/* line 36, ../../app/stylesheets/styles.scss */
+/* line 34, ../../app/stylesheets/styles.scss */
+body {
+  background-color: #568cb0;
+}
+
+/* line 38, ../../app/stylesheets/styles.scss */
 .mainpage {
   background-color: none;
   text-align: center;
@@ -31,7 +35,7 @@ html, body, body.bp {
   margin-right: auto;
 }
 
-/* line 44, ../../app/stylesheets/styles.scss */
+/* line 46, ../../app/stylesheets/styles.scss */
 #header {
   background: #fdf9cc;
   text-align: center;
@@ -50,7 +54,7 @@ html, body, body.bp {
   -khtml-border-bottom-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-/* line 50, ../../app/stylesheets/styles.scss */
+/* line 52, ../../app/stylesheets/styles.scss */
 #header h1 {
   text-shadow: #729572 1px 2px 1px;
   font-size: 80px;
@@ -58,37 +62,37 @@ html, body, body.bp {
   color: #2f3f2f;
   margin: 0;
 }
-/* line 56, ../../app/stylesheets/styles.scss */
+/* line 58, ../../app/stylesheets/styles.scss */
 #header h1 a {
   text-decoration: none;
   color: #2f3f2f;
 }
-/* line 59, ../../app/stylesheets/styles.scss */
+/* line 61, ../../app/stylesheets/styles.scss */
 #header h1 a:hover, #header h1 a:visited {
   color: #2f3f2f;
 }
-/* line 64, ../../app/stylesheets/styles.scss */
+/* line 66, ../../app/stylesheets/styles.scss */
 #header h2 {
   font-size: 40px;
   line-height: 40px;
   margin: 0;
 }
 
-/* line 71, ../../app/stylesheets/styles.scss */
+/* line 73, ../../app/stylesheets/styles.scss */
 h3 {
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
 }
 
-/* line 76, ../../app/stylesheets/styles.scss */
+/* line 78, ../../app/stylesheets/styles.scss */
 h4 {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
 }
 
-/* line 82, ../../app/stylesheets/styles.scss */
+/* line 84, ../../app/stylesheets/styles.scss */
 #main-content {
   overflow: auto;
   -moz-border-radius: 20px;
@@ -101,7 +105,7 @@ h4 {
   padding: 20px;
 }
 
-/* line 89, ../../app/stylesheets/styles.scss */
+/* line 91, ../../app/stylesheets/styles.scss */
 #nav {
   float: left;
   -moz-border-radius: 20px;
@@ -115,23 +119,23 @@ h4 {
   padding: 20px;
   width: 260px;
 }
-/* line 96, ../../app/stylesheets/styles.scss */
+/* line 98, ../../app/stylesheets/styles.scss */
 #nav ul {
   text-align: left;
 }
-/* line 98, ../../app/stylesheets/styles.scss */
+/* line 100, ../../app/stylesheets/styles.scss */
 #nav ul li {
   font-size: 32px;
   font-family: 'Angelina';
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 103, ../../app/stylesheets/styles.scss */
+/* line 105, ../../app/stylesheets/styles.scss */
 #nav ul li ul {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/* line 106, ../../app/stylesheets/styles.scss */
+/* line 108, ../../app/stylesheets/styles.scss */
 #nav ul li ul li {
   font-family: Palatino, Georgia, Times, serif;
   font-size: 16px;
@@ -139,68 +143,68 @@ h4 {
   margin-top: 0;
   margin-bottom: 4px;
 }
-/* line 115, ../../app/stylesheets/styles.scss */
+/* line 117, ../../app/stylesheets/styles.scss */
 #nav ul a {
   color: #fdf9cc;
 }
-/* line 117, ../../app/stylesheets/styles.scss */
+/* line 119, ../../app/stylesheets/styles.scss */
 #nav ul a:hover {
   color: white;
 }
 
-/* line 124, ../../app/stylesheets/styles.scss */
+/* line 126, ../../app/stylesheets/styles.scss */
 #text-content {
   text-align: justify;
   margin-left: 320px;
 }
-/* line 125, ../../app/stylesheets/styles.scss */
+/* line 127, ../../app/stylesheets/styles.scss */
 #text-content a {
   color: #455c45;
 }
-/* line 127, ../../app/stylesheets/styles.scss */
+/* line 129, ../../app/stylesheets/styles.scss */
 #text-content a:visited {
   color: #506a50;
 }
-/* line 130, ../../app/stylesheets/styles.scss */
+/* line 132, ../../app/stylesheets/styles.scss */
 #text-content a:hover {
   color: #668766;
 }
-/* line 136, ../../app/stylesheets/styles.scss */
+/* line 138, ../../app/stylesheets/styles.scss */
 #text-content p {
   padding: 10px;
   text-indent: 20px;
 }
-/* line 140, ../../app/stylesheets/styles.scss */
+/* line 142, ../../app/stylesheets/styles.scss */
 #text-content h4, #text-content h5 {
   font-weight: bold;
   font-style: normal;
 }
-/* line 144, ../../app/stylesheets/styles.scss */
+/* line 146, ../../app/stylesheets/styles.scss */
 #text-content h4 {
   font-size: 20px;
 }
-/* line 147, ../../app/stylesheets/styles.scss */
+/* line 149, ../../app/stylesheets/styles.scss */
 #text-content h5 {
   font-size: 18px;
   text-indent: 10px;
   margin-top: 10px;
 }
-/* line 152, ../../app/stylesheets/styles.scss */
+/* line 154, ../../app/stylesheets/styles.scss */
 #text-content table {
   margin-top: 0;
   width: 100%;
 }
-/* line 156, ../../app/stylesheets/styles.scss */
+/* line 158, ../../app/stylesheets/styles.scss */
 #text-content table caption {
   display: none;
 }
-/* line 159, ../../app/stylesheets/styles.scss */
+/* line 161, ../../app/stylesheets/styles.scss */
 #text-content table thead th {
   font-weight: bold;
   font-size: 18px;
   border-bottom: solid 4px #568cb0;
 }
-/* line 165, ../../app/stylesheets/styles.scss */
+/* line 167, ../../app/stylesheets/styles.scss */
 #text-content table tbody td {
   font-size: 14px;
   padding-right: 24px;
@@ -210,21 +214,21 @@ h4 {
   border-bottom: solid thin #568cb0;
   color: #5b795b;
 }
-/* line 171, ../../app/stylesheets/styles.scss */
+/* line 173, ../../app/stylesheets/styles.scss */
 #text-content table tbody td ul {
   list-style: circle;
 }
-/* line 173, ../../app/stylesheets/styles.scss */
+/* line 175, ../../app/stylesheets/styles.scss */
 #text-content table tbody td ul li {
   list-style-position: outside;
   text-indent: 0;
 }
-/* line 181, ../../app/stylesheets/styles.scss */
+/* line 183, ../../app/stylesheets/styles.scss */
 #text-content table tbody td.airline-name {
   font-weight: bold;
   color: #2f3f2f;
 }
-/* line 186, ../../app/stylesheets/styles.scss */
+/* line 188, ../../app/stylesheets/styles.scss */
 #text-content table.ferry caption {
   display: table-caption;
   font-weight: bold;
@@ -233,19 +237,19 @@ h4 {
   color: #568cb0;
   margin-bottom: 10px;
 }
-/* line 195, ../../app/stylesheets/styles.scss */
+/* line 197, ../../app/stylesheets/styles.scss */
 #text-content ul li {
   list-style: circle;
   text-indent: 40px;
   list-style-position: inside;
 }
 
-/* line 203, ../../app/stylesheets/styles.scss */
+/* line 205, ../../app/stylesheets/styles.scss */
 ul.events {
   text-align: left;
 }
 
-/* line 207, ../../app/stylesheets/styles.scss */
+/* line 209, ../../app/stylesheets/styles.scss */
 blockquote {
   font-style: italic;
   font-size: 14px;
@@ -253,7 +257,7 @@ blockquote {
   margin-right: 40px;
 }
 
-/* line 213, ../../app/stylesheets/styles.scss */
+/* line 215, ../../app/stylesheets/styles.scss */
 strong {
   font-weight: bold;
 }

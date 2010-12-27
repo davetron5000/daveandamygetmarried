@@ -21,16 +21,18 @@ body.bp {
   background-image: url(/images/vieques-background.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-attachment: scroll;
+  background-attachment: fixed;
   color: $main-color;
 }
 html, body, body.bp {
-  background-color: $matte-color;
   height: 100%;
   font-family: $body-font;
   line-height: $line-height;
   font-size: $font-size;
   margin: 0;
+}
+body {
+  background-color: $matte-color;
 }
 
 .mainpage {
