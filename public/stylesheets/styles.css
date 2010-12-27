@@ -173,33 +173,34 @@ h4 {
 /* line 140, ../../app/stylesheets/styles.scss */
 #text-content h4, #text-content h5 {
   font-weight: bold;
+  font-style: normal;
 }
-/* line 143, ../../app/stylesheets/styles.scss */
+/* line 144, ../../app/stylesheets/styles.scss */
 #text-content h4 {
   font-size: 20px;
 }
-/* line 146, ../../app/stylesheets/styles.scss */
+/* line 147, ../../app/stylesheets/styles.scss */
 #text-content h5 {
   font-size: 18px;
   text-indent: 10px;
   margin-top: 10px;
 }
-/* line 151, ../../app/stylesheets/styles.scss */
+/* line 152, ../../app/stylesheets/styles.scss */
 #text-content table {
   margin-top: 0;
   width: 100%;
 }
-/* line 155, ../../app/stylesheets/styles.scss */
+/* line 156, ../../app/stylesheets/styles.scss */
 #text-content table caption {
   display: none;
 }
-/* line 158, ../../app/stylesheets/styles.scss */
+/* line 159, ../../app/stylesheets/styles.scss */
 #text-content table thead th {
   font-weight: bold;
   font-size: 18px;
   border-bottom: solid 4px #568cb0;
 }
-/* line 164, ../../app/stylesheets/styles.scss */
+/* line 165, ../../app/stylesheets/styles.scss */
 #text-content table tbody td {
   font-size: 14px;
   padding-right: 24px;
@@ -209,21 +210,21 @@ h4 {
   border-bottom: solid thin #568cb0;
   color: #5b795b;
 }
-/* line 170, ../../app/stylesheets/styles.scss */
+/* line 171, ../../app/stylesheets/styles.scss */
 #text-content table tbody td ul {
   list-style: circle;
 }
-/* line 172, ../../app/stylesheets/styles.scss */
+/* line 173, ../../app/stylesheets/styles.scss */
 #text-content table tbody td ul li {
   list-style-position: outside;
   text-indent: 0;
 }
-/* line 180, ../../app/stylesheets/styles.scss */
+/* line 181, ../../app/stylesheets/styles.scss */
 #text-content table tbody td.airline-name {
   font-weight: bold;
   color: #2f3f2f;
 }
-/* line 185, ../../app/stylesheets/styles.scss */
+/* line 186, ../../app/stylesheets/styles.scss */
 #text-content table.ferry caption {
   display: table-caption;
   font-weight: bold;
@@ -232,19 +233,19 @@ h4 {
   color: #568cb0;
   margin-bottom: 10px;
 }
-/* line 194, ../../app/stylesheets/styles.scss */
+/* line 195, ../../app/stylesheets/styles.scss */
 #text-content ul li {
   list-style: circle;
   text-indent: 40px;
   list-style-position: inside;
 }
 
-/* line 202, ../../app/stylesheets/styles.scss */
+/* line 203, ../../app/stylesheets/styles.scss */
 ul.events {
   text-align: left;
 }
 
-/* line 206, ../../app/stylesheets/styles.scss */
+/* line 207, ../../app/stylesheets/styles.scss */
 blockquote {
   font-style: italic;
   font-size: 14px;
@@ -252,7 +253,7 @@ blockquote {
   margin-right: 40px;
 }
 
-/* line 212, ../../app/stylesheets/styles.scss */
+/* line 213, ../../app/stylesheets/styles.scss */
 strong {
   font-weight: bold;
 }
