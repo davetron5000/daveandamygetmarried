@@ -10,14 +10,14 @@ When we visited the island of Culebra in Puerto Rico for the first time, we went
       FAQ.new("Do I need a passport?","No."),
       FAQ.new("Are you sure I don't need a passport?", "Yep."),
       FAQ.new("Where are you registered?","""
-We are registered through the I Do Foundation. We have designated three charities that are important to us, and we would be honored if you made a donation to any of these charities as a gift to us. However, we also understand that some people prefer to buy things. Through the I Do Foundation, we were able to register at Cooking.com and Macy's. All purchases made through our I Do Foundation links to these registries will generate donations to these three charities as well. But honestly, your presence at our wedding is enough for us. And we really mean that."""),
+We are registered through the I Do Foundation. We have designated three charities that are important to us, and we would be honored if you made a donation to any of these charities as a gift to us. However, we also understand that some people prefer to buy things. Through the I Do Foundation, we were able to register at Cooking.com. All purchases made through our I Do Foundation links to this registry will generate donations to these three charities as well. But honestly, your presence at our wedding is enough for us. And we really mean that."""),
       FAQ.new("Where do I go to find it?","Go <a target=\"_new\" href=\"http://www.idofoundation.org/43432\">to this link on the I Do Foundation's</a> website."),
-      FAQ.new("What if I just go to Cooking.com or Macy's directly?","Well, you can, but no donation will be made to our charities :("),
-      FAQ.new("I went through the I Do Foundation website and clicked on the link to Cooking.com and Macys. Now what?","""
-A: Once you arrive on either website, you will still have to find our registry. On Macy's it's pretty straightforward. On Cooking.com, please scroll to the bottom of the page and in really small print where it says \"Website Information,\" you will see \"Wedding Registry.\" Click there and you will be able to find us."""),
+      FAQ.new("What if I just go to Cooking.com directly?","Well, you can, but no donation will be made to our charities :("),
+      FAQ.new("I went through the I Do Foundation website and clicked on the link to Cooking.com. Now what?","""
+A: Once you arrive on either website, you will still have to find our registry. Once on Cooking.com, please scroll to the bottom of the page and in really small print where it says \"Website Information,\" you will see \"Wedding Registry.\" Click there and you will be able to find us."""),
       FAQ.new("Whose cat is on the reply card envelope stamps?","That's Rudy! He's our cat. We'd like to say he'll be sad to miss the wedding, but he is pretty shy around people, so he'll likely be happily at home sleeping, and every so often wonder where his people are. But we still wanted to involve him in the wedding somehow."),
       FAQ.new("He’s very photogenic!","That isn’t a question but we agree. "),
-      FAQ.new("What kind of a cat is Rudy, anyway?","A very loud one.  We're confident that he, and other cats like him, will be official designated as \"rudycats\", but we aren't holding our breath"),
+      FAQ.new("What kind of a cat is Rudy, anyway?","A very loud one.  We're confident that he, and other cats like him, will be official designated as \"rudycats,\" but we aren't holding our breath"),
     ]
   end
 end
