@@ -261,3 +261,29 @@ blockquote {
 strong {
   font-weight: bold;
 }
+
+/* line 219, ../../app/stylesheets/styles.scss */
+dt {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* line 225, ../../app/stylesheets/styles.scss */
+#faq-list dd.faq-answer {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+/* line 229, ../../app/stylesheets/styles.scss */
+#faq-list dd.faq-answer ul {
+  padding-left: 20px;
+}
+/* line 231, ../../app/stylesheets/styles.scss */
+#faq-list dd.faq-answer ul li {
+  text-align: left;
+  font-size: 14px;
+  list-style: circle;
+  text-indent: 0px;
+  list-style-position: outside;
+}

@@ -29,7 +29,10 @@ DaveandamygetmarriedCom::Application.routes.draw do
 
   get "wedding/expect"
 
+  get "wedding/faq"
+
   get "welcome/index"
+
 
   root :to => "welcome#index"
   # The priority is based upon order of creation:

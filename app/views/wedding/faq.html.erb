@@ -1,0 +1,9 @@
+<% content_for :title do %>
+Q &amp; A
+<% end %>
+<dl id="faq-list">
+<% @faqs.each do |faq| %>
+  <dt><strong>Q:</strong> <%= raw(faq.question) %></dt>
+  <dd class="faq-answer"><strong>A:</strong> <%= raw(faq.answer) %></dd>
+<% end %>
+</dl>

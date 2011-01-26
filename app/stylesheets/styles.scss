@@ -215,3 +215,25 @@ blockquote {
 strong {
   font-weight: bold;
 }
+
+dt {
+  margin-left: $line-height;
+  margin-bottom: $line-height / 2;
+  font-weight: bold;
+}
+
+#faq-list dd.faq-answer {
+  margin-left: $line-height;
+  margin-bottom: $line-height;
+  margin-right: $line-height;
+  ul {
+    padding-left: $line-height;
+    li {
+      text-align: left;
+      font-size: $font-size - 2;
+      list-style: circle;
+      text-indent: 0px;
+      list-style-position: outside;
+    }
+  }
+}
