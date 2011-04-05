@@ -247,9 +247,10 @@ h4 {
 /* line 205, ../../app/stylesheets/styles.scss */
 ul.events {
   text-align: left;
+  font-size: 14px;
 }
 
-/* line 209, ../../app/stylesheets/styles.scss */
+/* line 210, ../../app/stylesheets/styles.scss */
 blockquote {
   font-style: italic;
   font-size: 14px;
@@ -257,33 +258,54 @@ blockquote {
   margin-right: 40px;
 }
 
-/* line 215, ../../app/stylesheets/styles.scss */
+/* line 216, ../../app/stylesheets/styles.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 219, ../../app/stylesheets/styles.scss */
+/* line 220, ../../app/stylesheets/styles.scss */
 dt {
   margin-left: 20px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-/* line 225, ../../app/stylesheets/styles.scss */
+/* line 226, ../../app/stylesheets/styles.scss */
 #faq-list dd.faq-answer {
   margin-left: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
 }
-/* line 229, ../../app/stylesheets/styles.scss */
+/* line 230, ../../app/stylesheets/styles.scss */
 #faq-list dd.faq-answer ul {
   padding-left: 20px;
 }
-/* line 231, ../../app/stylesheets/styles.scss */
+/* line 232, ../../app/stylesheets/styles.scss */
 #faq-list dd.faq-answer ul li {
   text-align: left;
   font-size: 14px;
   list-style: circle;
   text-indent: 0px;
   list-style-position: outside;
+}
+
+/* line 243, ../../app/stylesheets/styles.scss */
+ol#directions li {
+  list-style: decimal;
+  list-style-position: inside;
+  text-indent: 32px;
+  font-size: 12px;
+}
+
+/* line 251, ../../app/stylesheets/styles.scss */
+p.note {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 80px;
+  padding-top: 0px;
+}
+
+/* line 259, ../../app/stylesheets/styles.scss */
+ul#hints li {
+  margin-bottom: 20px;
 }
