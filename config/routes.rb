@@ -31,6 +31,8 @@ DaveandamygetmarriedCom::Application.routes.draw do
 
   get "wedding/faq"
 
+  get "wedding/how_went"
+
   get "welcome/index"
 
 

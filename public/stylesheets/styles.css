@@ -309,3 +309,20 @@ p.note {
 ul#hints li {
   margin-bottom: 20px;
 }
+
+/* line 264, ../../app/stylesheets/styles.scss */
+.header-image {
+  text-align: center;
+}
+
+/* line 268, ../../app/stylesheets/styles.scss */
+.ceremony-text {
+  font-size: 14px;
+}
+
+/* line 272, ../../app/stylesheets/styles.scss */
+ol#ceremony-toc li {
+  list-style: decimal;
+  list-style-position: inside;
+  text-indent: 32px;
+}

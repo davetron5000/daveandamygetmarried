@@ -260,3 +260,18 @@ ul#hints {
     margin-bottom: $line-height;
   }
 }
+
+.header-image {
+    text-align: center;
+}
+
+.ceremony-text {
+    font-size: $font-size - 2;
+}
+ol#ceremony-toc {
+    li {
+        list-style: decimal;
+        list-style-position: inside;
+        text-indent: $font-size * 2;
+    }
+}
